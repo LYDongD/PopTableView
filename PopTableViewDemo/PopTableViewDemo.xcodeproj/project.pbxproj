@@ -1,0 +1,567 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		796A1E3C1C8EB42200A07709 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 796A1E3B1C8EB42200A07709 /* main.m */; };
+		796A1E3F1C8EB42300A07709 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 796A1E3E1C8EB42300A07709 /* AppDelegate.m */; };
+		796A1E451C8EB42300A07709 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 796A1E431C8EB42300A07709 /* Main.storyboard */; };
+		796A1E471C8EB42300A07709 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 796A1E461C8EB42300A07709 /* Assets.xcassets */; };
+		796A1E4A1C8EB42300A07709 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 796A1E481C8EB42300A07709 /* LaunchScreen.storyboard */; };
+		796A1E551C8EB42300A07709 /* PopTableViewDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 796A1E541C8EB42300A07709 /* PopTableViewDemoTests.m */; };
+		796A1E601C8EB42300A07709 /* PopTableViewDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 796A1E5F1C8EB42300A07709 /* PopTableViewDemoUITests.m */; };
+		796A1E711C8EB5D600A07709 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 796A1E6F1C8EB5D600A07709 /* ViewController.m */; };
+		796A1E741C8EB5EE00A07709 /* LYCover.m in Sources */ = {isa = PBXBuildFile; fileRef = 796A1E731C8EB5EE00A07709 /* LYCover.m */; };
+		796A1E771C8EC00700A07709 /* LYPopViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 796A1E761C8EC00700A07709 /* LYPopViewController.m */; };
+		796A1E7B1C8EC12400A07709 /* LYPopCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 796A1E791C8EC12400A07709 /* LYPopCell.m */; };
+		796A1E7C1C8EC12400A07709 /* LYPopCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 796A1E7A1C8EC12400A07709 /* LYPopCell.xib */; };
+		796A1E7F1C8ED75900A07709 /* LYSectionHead.m in Sources */ = {isa = PBXBuildFile; fileRef = 796A1E7E1C8ED75900A07709 /* LYSectionHead.m */; };
+		796A1E811C8ED77200A07709 /* LYSctionHead.xib in Resources */ = {isa = PBXBuildFile; fileRef = 796A1E801C8ED77200A07709 /* LYSctionHead.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		796A1E511C8EB42300A07709 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 796A1E2F1C8EB42200A07709 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 796A1E361C8EB42200A07709;
+			remoteInfo = PopTableViewDemo;
+		};
+		796A1E5C1C8EB42300A07709 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 796A1E2F1C8EB42200A07709 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 796A1E361C8EB42200A07709;
+			remoteInfo = PopTableViewDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		796A1E371C8EB42200A07709 /* PopTableViewDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PopTableViewDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		796A1E3B1C8EB42200A07709 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		796A1E3D1C8EB42200A07709 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		796A1E3E1C8EB42300A07709 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		796A1E441C8EB42300A07709 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		796A1E461C8EB42300A07709 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		796A1E491C8EB42300A07709 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		796A1E4B1C8EB42300A07709 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		796A1E501C8EB42300A07709 /* PopTableViewDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PopTableViewDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		796A1E541C8EB42300A07709 /* PopTableViewDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PopTableViewDemoTests.m; sourceTree = "<group>"; };
+		796A1E561C8EB42300A07709 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		796A1E5B1C8EB42300A07709 /* PopTableViewDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PopTableViewDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		796A1E5F1C8EB42300A07709 /* PopTableViewDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PopTableViewDemoUITests.m; sourceTree = "<group>"; };
+		796A1E611C8EB42300A07709 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		796A1E6E1C8EB5D600A07709 /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		796A1E6F1C8EB5D600A07709 /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		796A1E721C8EB5EE00A07709 /* LYCover.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LYCover.h; sourceTree = "<group>"; };
+		796A1E731C8EB5EE00A07709 /* LYCover.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LYCover.m; sourceTree = "<group>"; };
+		796A1E751C8EC00700A07709 /* LYPopViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LYPopViewController.h; sourceTree = "<group>"; };
+		796A1E761C8EC00700A07709 /* LYPopViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LYPopViewController.m; sourceTree = "<group>"; };
+		796A1E781C8EC12400A07709 /* LYPopCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LYPopCell.h; sourceTree = "<group>"; };
+		796A1E791C8EC12400A07709 /* LYPopCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LYPopCell.m; sourceTree = "<group>"; };
+		796A1E7A1C8EC12400A07709 /* LYPopCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LYPopCell.xib; sourceTree = "<group>"; };
+		796A1E7D1C8ED75900A07709 /* LYSectionHead.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LYSectionHead.h; sourceTree = "<group>"; };
+		796A1E7E1C8ED75900A07709 /* LYSectionHead.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LYSectionHead.m; sourceTree = "<group>"; };
+		796A1E801C8ED77200A07709 /* LYSctionHead.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LYSctionHead.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		796A1E341C8EB42200A07709 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		796A1E4D1C8EB42300A07709 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		796A1E581C8EB42300A07709 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		796A1E2E1C8EB42200A07709 = {
+			isa = PBXGroup;
+			children = (
+				796A1E391C8EB42200A07709 /* PopTableViewDemo */,
+				796A1E531C8EB42300A07709 /* PopTableViewDemoTests */,
+				796A1E5E1C8EB42300A07709 /* PopTableViewDemoUITests */,
+				796A1E381C8EB42200A07709 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		796A1E381C8EB42200A07709 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				796A1E371C8EB42200A07709 /* PopTableViewDemo.app */,
+				796A1E501C8EB42300A07709 /* PopTableViewDemoTests.xctest */,
+				796A1E5B1C8EB42300A07709 /* PopTableViewDemoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		796A1E391C8EB42200A07709 /* PopTableViewDemo */ = {
+			isa = PBXGroup;
+			children = (
+				796A1E3D1C8EB42200A07709 /* AppDelegate.h */,
+				796A1E3E1C8EB42300A07709 /* AppDelegate.m */,
+				796A1E6D1C8EB5D600A07709 /* Controller */,
+				796A1E701C8EB5D600A07709 /* View */,
+				796A1E431C8EB42300A07709 /* Main.storyboard */,
+				796A1E461C8EB42300A07709 /* Assets.xcassets */,
+				796A1E481C8EB42300A07709 /* LaunchScreen.storyboard */,
+				796A1E4B1C8EB42300A07709 /* Info.plist */,
+				796A1E3A1C8EB42200A07709 /* Supporting Files */,
+			);
+			path = PopTableViewDemo;
+			sourceTree = "<group>";
+		};
+		796A1E3A1C8EB42200A07709 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				796A1E3B1C8EB42200A07709 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		796A1E531C8EB42300A07709 /* PopTableViewDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				796A1E541C8EB42300A07709 /* PopTableViewDemoTests.m */,
+				796A1E561C8EB42300A07709 /* Info.plist */,
+			);
+			path = PopTableViewDemoTests;
+			sourceTree = "<group>";
+		};
+		796A1E5E1C8EB42300A07709 /* PopTableViewDemoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				796A1E5F1C8EB42300A07709 /* PopTableViewDemoUITests.m */,
+				796A1E611C8EB42300A07709 /* Info.plist */,
+			);
+			path = PopTableViewDemoUITests;
+			sourceTree = "<group>";
+		};
+		796A1E6D1C8EB5D600A07709 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				796A1E6E1C8EB5D600A07709 /* ViewController.h */,
+				796A1E6F1C8EB5D600A07709 /* ViewController.m */,
+				796A1E751C8EC00700A07709 /* LYPopViewController.h */,
+				796A1E761C8EC00700A07709 /* LYPopViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		796A1E701C8EB5D600A07709 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				796A1E721C8EB5EE00A07709 /* LYCover.h */,
+				796A1E731C8EB5EE00A07709 /* LYCover.m */,
+				796A1E781C8EC12400A07709 /* LYPopCell.h */,
+				796A1E791C8EC12400A07709 /* LYPopCell.m */,
+				796A1E7A1C8EC12400A07709 /* LYPopCell.xib */,
+				796A1E7D1C8ED75900A07709 /* LYSectionHead.h */,
+				796A1E7E1C8ED75900A07709 /* LYSectionHead.m */,
+				796A1E801C8ED77200A07709 /* LYSctionHead.xib */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		796A1E361C8EB42200A07709 /* PopTableViewDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 796A1E641C8EB42300A07709 /* Build configuration list for PBXNativeTarget "PopTableViewDemo" */;
+			buildPhases = (
+				796A1E331C8EB42200A07709 /* Sources */,
+				796A1E341C8EB42200A07709 /* Frameworks */,
+				796A1E351C8EB42200A07709 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PopTableViewDemo;
+			productName = PopTableViewDemo;
+			productReference = 796A1E371C8EB42200A07709 /* PopTableViewDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		796A1E4F1C8EB42300A07709 /* PopTableViewDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 796A1E671C8EB42300A07709 /* Build configuration list for PBXNativeTarget "PopTableViewDemoTests" */;
+			buildPhases = (
+				796A1E4C1C8EB42300A07709 /* Sources */,
+				796A1E4D1C8EB42300A07709 /* Frameworks */,
+				796A1E4E1C8EB42300A07709 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				796A1E521C8EB42300A07709 /* PBXTargetDependency */,
+			);
+			name = PopTableViewDemoTests;
+			productName = PopTableViewDemoTests;
+			productReference = 796A1E501C8EB42300A07709 /* PopTableViewDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		796A1E5A1C8EB42300A07709 /* PopTableViewDemoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 796A1E6A1C8EB42300A07709 /* Build configuration list for PBXNativeTarget "PopTableViewDemoUITests" */;
+			buildPhases = (
+				796A1E571C8EB42300A07709 /* Sources */,
+				796A1E581C8EB42300A07709 /* Frameworks */,
+				796A1E591C8EB42300A07709 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				796A1E5D1C8EB42300A07709 /* PBXTargetDependency */,
+			);
+			name = PopTableViewDemoUITests;
+			productName = PopTableViewDemoUITests;
+			productReference = 796A1E5B1C8EB42300A07709 /* PopTableViewDemoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		796A1E2F1C8EB42200A07709 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = com.fengdikeji;
+				TargetAttributes = {
+					796A1E361C8EB42200A07709 = {
+						CreatedOnToolsVersion = 7.2.1;
+					};
+					796A1E4F1C8EB42300A07709 = {
+						CreatedOnToolsVersion = 7.2.1;
+						TestTargetID = 796A1E361C8EB42200A07709;
+					};
+					796A1E5A1C8EB42300A07709 = {
+						CreatedOnToolsVersion = 7.2.1;
+						TestTargetID = 796A1E361C8EB42200A07709;
+					};
+				};
+			};
+			buildConfigurationList = 796A1E321C8EB42200A07709 /* Build configuration list for PBXProject "PopTableViewDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 796A1E2E1C8EB42200A07709;
+			productRefGroup = 796A1E381C8EB42200A07709 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				796A1E361C8EB42200A07709 /* PopTableViewDemo */,
+				796A1E4F1C8EB42300A07709 /* PopTableViewDemoTests */,
+				796A1E5A1C8EB42300A07709 /* PopTableViewDemoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		796A1E351C8EB42200A07709 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				796A1E4A1C8EB42300A07709 /* LaunchScreen.storyboard in Resources */,
+				796A1E811C8ED77200A07709 /* LYSctionHead.xib in Resources */,
+				796A1E471C8EB42300A07709 /* Assets.xcassets in Resources */,
+				796A1E7C1C8EC12400A07709 /* LYPopCell.xib in Resources */,
+				796A1E451C8EB42300A07709 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		796A1E4E1C8EB42300A07709 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		796A1E591C8EB42300A07709 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		796A1E331C8EB42200A07709 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				796A1E741C8EB5EE00A07709 /* LYCover.m in Sources */,
+				796A1E711C8EB5D600A07709 /* ViewController.m in Sources */,
+				796A1E7B1C8EC12400A07709 /* LYPopCell.m in Sources */,
+				796A1E771C8EC00700A07709 /* LYPopViewController.m in Sources */,
+				796A1E3F1C8EB42300A07709 /* AppDelegate.m in Sources */,
+				796A1E7F1C8ED75900A07709 /* LYSectionHead.m in Sources */,
+				796A1E3C1C8EB42200A07709 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		796A1E4C1C8EB42300A07709 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				796A1E551C8EB42300A07709 /* PopTableViewDemoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		796A1E571C8EB42300A07709 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				796A1E601C8EB42300A07709 /* PopTableViewDemoUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		796A1E521C8EB42300A07709 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 796A1E361C8EB42200A07709 /* PopTableViewDemo */;
+			targetProxy = 796A1E511C8EB42300A07709 /* PBXContainerItemProxy */;
+		};
+		796A1E5D1C8EB42300A07709 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 796A1E361C8EB42200A07709 /* PopTableViewDemo */;
+			targetProxy = 796A1E5C1C8EB42300A07709 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		796A1E431C8EB42300A07709 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				796A1E441C8EB42300A07709 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		796A1E481C8EB42300A07709 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				796A1E491C8EB42300A07709 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		796A1E621C8EB42300A07709 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		796A1E631C8EB42300A07709 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		796A1E651C8EB42300A07709 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = PopTableViewDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.fengdikeji.PopTableViewDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		796A1E661C8EB42300A07709 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = PopTableViewDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.fengdikeji.PopTableViewDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		796A1E681C8EB42300A07709 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = PopTableViewDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.fengdikeji.PopTableViewDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PopTableViewDemo.app/PopTableViewDemo";
+			};
+			name = Debug;
+		};
+		796A1E691C8EB42300A07709 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = PopTableViewDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.fengdikeji.PopTableViewDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PopTableViewDemo.app/PopTableViewDemo";
+			};
+			name = Release;
+		};
+		796A1E6B1C8EB42300A07709 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = PopTableViewDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.fengdikeji.PopTableViewDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = PopTableViewDemo;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		796A1E6C1C8EB42300A07709 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = PopTableViewDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.fengdikeji.PopTableViewDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = PopTableViewDemo;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		796A1E321C8EB42200A07709 /* Build configuration list for PBXProject "PopTableViewDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				796A1E621C8EB42300A07709 /* Debug */,
+				796A1E631C8EB42300A07709 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		796A1E641C8EB42300A07709 /* Build configuration list for PBXNativeTarget "PopTableViewDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				796A1E651C8EB42300A07709 /* Debug */,
+				796A1E661C8EB42300A07709 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		796A1E671C8EB42300A07709 /* Build configuration list for PBXNativeTarget "PopTableViewDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				796A1E681C8EB42300A07709 /* Debug */,
+				796A1E691C8EB42300A07709 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		796A1E6A1C8EB42300A07709 /* Build configuration list for PBXNativeTarget "PopTableViewDemoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				796A1E6B1C8EB42300A07709 /* Debug */,
+				796A1E6C1C8EB42300A07709 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 796A1E2F1C8EB42200A07709 /* Project object */;
+}

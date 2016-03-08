@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="9532" systemVersion="14F27" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9530"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB" customClass="LYSectionHead">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="40"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="请填写预约地址" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="xI6-zB-0iw">
+                    <rect key="frame" x="0.0" y="0.0" width="320" height="40"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                    <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="TAa-AK-gUR">
+                    <rect key="frame" x="0.0" y="39" width="320" height="1"/>
+                    <color key="backgroundColor" red="0.88235294119999996" green="0.88235294119999996" blue="0.90196078430000004" alpha="1" colorSpace="calibratedRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="1" id="KiI-EE-n2V"/>
+                    </constraints>
+                </view>
+            </subviews>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstItem="xI6-zB-0iw" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="HYM-u8-UtT"/>
+                <constraint firstItem="TAa-AK-gUR" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="K1F-LA-97w"/>
+                <constraint firstAttribute="trailing" secondItem="TAa-AK-gUR" secondAttribute="trailing" id="VB1-Rj-TG4"/>
+                <constraint firstAttribute="trailing" secondItem="xI6-zB-0iw" secondAttribute="trailing" id="Vwy-sy-28h"/>
+                <constraint firstAttribute="bottom" secondItem="xI6-zB-0iw" secondAttribute="bottom" id="hHF-oz-vPB"/>
+                <constraint firstItem="xI6-zB-0iw" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="hVN-bp-O6F"/>
+                <constraint firstAttribute="bottom" secondItem="TAa-AK-gUR" secondAttribute="bottom" id="mCm-vc-wGo"/>
+            </constraints>
+            <nil key="simulatedStatusBarMetrics"/>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+        </view>
+    </objects>
+</document>
